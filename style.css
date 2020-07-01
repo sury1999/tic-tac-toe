@@ -63,9 +63,12 @@ body {
 }
 
 .cell.x::before,
-.cell.x::after,
+.cell.x::after {
+  background-color: red;
+}
+
 .cell.circle::before {
-  background-color: black;
+  background-color: green;
 }
 
 .board.x .cell:not(.x):not(.circle):hover::before,
